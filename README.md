@@ -5,13 +5,13 @@
 
 ## Demo
 
-[Visit Website With Demos](https://grid_craft.vercel.app/)
+[Visit Website With Demos](https://gridcraft-web-seven.vercel.app/)
 
 ## Documentation
 
-[Full Documentation](https://grid_craft.vercel.app/docs)
+[Full Documentation](https://gridcraft-web-seven.vercel.app/docs)
 
-[Quickstart](https://grid_craft.vercel.app/docs/quickstart)
+[Quickstart](https://gridcraft-web-seven.vercel.app/docs/quickstart)
 
 ## Comprehensive & Headless Data Grid for SvelteKit Apps
 
@@ -575,11 +575,11 @@ MyTableContainer.svelte
 </div>
 ```
 
-Find [here](https://grid_craft.vercel.app/docs/theming) the full theming documentation.
+Find [here](https://gridcraft-web-seven.vercel.app/docs/theming) the full theming documentation.
 
 ## Full Documentation
 
-[Here](https://grid_craft.vercel.app/docs/) you can find the full documentation of GridCraft
+[Here](https://gridcraft-web-seven.vercel.app/docs/) you can find the full documentation of GridCraft
 
 ## Something Missing? 
 
@@ -593,9 +593,9 @@ Or ask the community in our [Discord Channel](https://discord.gg/HhVet3FU2h)
 
 ## API Documentation
 
-[Grid API](https://grid_craft.vercel.app/docs/api-grid)
-[Column API](https://grid_craft.vercel.app/docs/api-column)
-[Filter API](https://grid_craft.vercel.app/docs/api-filter)
+[Grid API](https://gridcraft-web-seven.vercel.app/docs/api-grid)
+[Column API](https://gridcraft-web-seven.vercel.app/docs/api-column)
+[Filter API](https://gridcraft-web-seven.vercel.app/docs/api-filter)
 
 ## License
 
