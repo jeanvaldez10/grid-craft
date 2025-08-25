@@ -1,0 +1,64 @@
+{
+  "name": "gridcraft",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "svelte-package --watch",
+    "build": "svelte-package",
+    "preview": "vite preview",
+    "package": "svelte-kit sync && svelte-package && publint",
+    "prepublishOnly": "npm run package",
+    "test": "playwright test",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "publish": "npm publish --access public"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^6.0.1",
+    "@sveltejs/kit": "^2.27.1",
+    "@sveltejs/package": "^2.4.0",
+    "@sveltejs/vite-plugin-svelte": "^6.1.0",
+    "publint": "^0.1.16",
+    "svelte": "^5.38.0",
+    "svelte-check": "^4.3.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.0"
+  },
+  "svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "description": "GridCraft: Svelte Data Grid. Comprehensive Data Grid for SvelteKit Apps.",
+  "main": "svelte.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universegalaxy1112/grid-craft.git"
+  },
+  "keywords": [
+    "datagrid",
+    "sveltekit",
+    "grid"
+  ],
+  "author": "Stefan Lessle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universegalaxy1112/grid-craft/issues"
+  },
+  "homepage": "https://gridcraft.vercel.app"
+}
