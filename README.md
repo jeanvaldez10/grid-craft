@@ -23,14 +23,6 @@ The Grid can be used in a variety of ways - from very simple tables to feature-r
 
 The component is lightning fast and integrates into your project super quickly.
 
-Here are some screenshots of the default themes. **These themes are fully customizable and you can also create your own themes in a snap.**
-
-<img width="400" alt="image" src="https://github.com/universegalaxy1112/grid-craft/assets/23722678/3b86921d-d13a-441b-b405-38daf6886c80"> 
-<img width="400" alt="image" src="https://github.com/universegalaxy1112/grid-craft/assets/23722678/622a0be9-452c-4b65-9bdf-fc7d0153a5a9">
-<img width="400" alt="image" src="https://github.com/universegalaxy1112/grid-craft/assets/23722678/11c574bf-7b53-4920-8b08-65977812b266">
-<img width="400" alt="image" src="https://github.com/universegalaxy1112/grid-craft/assets/23722678/c471b1ba-9eb4-4dc0-91d7-93553fb6ad6a">
-
-
 ### Features ✨
 
 - [x] **Paging**: Use the default paging component or create your own.
@@ -80,8 +72,6 @@ import { clients } from './clients.js'; // [{name: ..., age: ..., ...}, {}, {}]
 <Grid data={clients} />
 ```
 
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/t10g8lrrvonvfpe)
-
 
 ### Example With Column Definition
 
@@ -124,8 +114,6 @@ let columns: GridColumn<Client>[] = [
     data={clients} 
     {columns} />
 ```
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/wrgknj4kkh9u2rp)
 
 
 #### Use custom components to render column cells
@@ -196,10 +184,6 @@ let columns: GridColumn<Client>[] = [
     data={clients} 
     bind:columns />
 ```
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/k37a6yc96pr3dg6)
-
-
 
 Here are the custom cell components used in the example above:
 
@@ -330,9 +314,6 @@ ActionsCell.svelte
 </a>
 ```
 
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/nz5ldvron8kudnf)
-
-
 ### Example With Paging
 
 Here a simple example with paging. If you are okay with the default values, you only need to define a variable of type `PagingData`, which you need to set as attributes for the `Grid` and `GridFooter` components. 
@@ -358,14 +339,6 @@ let paging = new PagingData(1, 5, [5, 10, 20]);
 
 <GridFooter bind:paging />
 ```
-
-Simple paging example:
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/jj9lpokeuet9223)
-
-Custom paging example:
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/dl77tkzvr65ustm)
 
 ### Example With Grouping
 
@@ -413,9 +386,6 @@ let columns: GridColumn<Client>[] = [
     {columns}
     bind:groupby />
 ```
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/y67tv9j37b8hqac)
-
 
 ### Example With Rows Selection
 
@@ -468,8 +438,6 @@ let columns: GridColumn<Client>[] = [
     {showCheckboxes} 
     bind:selectedRows />
 ```
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/r88lu8v36jtn9mu)
 
 ### Example With Text Filter
 
@@ -525,15 +493,6 @@ let columns: GridColumn<Client>[] = [
     {filters} />
 ```
 
-Example with text filter: 
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/2bc946qi8itq93u)
-
-Example with checkbox filter: 
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/vfg9ulxnijog4xy)
-
-
 ### Example With Customized Appearance 
 
 Currently, gridcraft comes with three pre-defined themes: `PlainTableCssTheme`, `PlainTableTheme` and `PrelineTheme`.
@@ -580,9 +539,6 @@ export default {
   ],
 }
 ```
-
-[![Open in SvelteLab](https://docs.sveltelab.dev/button/dark_short.svg)](https://sveltelab.dev/rkd4wvyi7nvmrfe)
-
 
 #### Overwriting an existing theme
 
